@@ -11,6 +11,11 @@ public class StudentContoller {
         return "index";
     }
 
+    @RequestMapping("/login")
+    public String iniciarSesion() {
+        return "login";
+    }
+
     @RequestMapping("/students")
     public String estudiantes() {
         return "students";
