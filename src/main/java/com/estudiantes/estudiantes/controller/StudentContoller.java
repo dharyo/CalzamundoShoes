@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class StudentContoller {
     @RequestMapping("/")
     public String principal() {
-        return "create_student";
+        return "index";
     }
 
     @RequestMapping("/students")
