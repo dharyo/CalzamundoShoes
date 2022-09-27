@@ -1,36 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.
-css" rel="stylesheet" integrity="sha384-
-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous" />
-    <title>Gestión de estudiantes</title>
-</head>
-
-<body>
-    <!--Incio de la barra de navegación-->
-    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">Sistema de gestión de estudiantes</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Gestión de estudiantes</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+    <link
+      type="text/css"
+      rel="stylesheet"
+      th:href="@{../static/css/style.css}"
+    />
+    <title>CalzamundoShoes</title>
+  </head>
+  <body>
+    <nav class="navbar" style="background-color: #f11167">
+      <div class="container-fluid">
+        <a class="navbar-brand logo">
+          <img src="../static/img/logoCalzamundo.png" alt="" class="logo"
+        /></a>
+        <form class="d-flex" role="search">
+          <button class="btn btn-outline-success" type="submit">
+            <img src="" alt="" />
+            Iniciar Sesión
+          </button>
+        </form>
+      </div>
     </nav>
-    <!--Final de la barra de navegación-->
     <!--Inicio del contenedor general-->
     <div class="container mt-4">
         <div class="row">
@@ -75,6 +76,19 @@ iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="a
         </table>
     </div>
     <!--Fin de la tabla-->
-</body>
-
+    <footer>
+      <div class="">
+        <br />
+        <img src="../static/img/logoCalzamundo.png" alt="" class="logo" />
+      </div>
+      <div class="">
+        <ul>
+          <li><a href="/acerca-de">Acerca de nosotros</a></li>
+          <li><a href="/conectar">Nuestras tiendas</a></li>
+          <li><a href="/rrss">Redes Sociales</a></li>
+        </ul>
+      </div>
+      <p>&copy; 2022 Dario Carrillo-Diana Niño</p>
+    </footer>
+  </body>
 </html>
