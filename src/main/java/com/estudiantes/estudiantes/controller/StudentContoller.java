@@ -16,9 +16,9 @@ public class StudentContoller {
         return "login";
     }
 
-    @RequestMapping("/students")
-    public String estudiantes() {
-        return "students";
+    @RequestMapping("/products")
+    public String productos() {
+        return "products";
     }
 
     @RequestMapping("/editar")
