@@ -6724,6 +6724,18 @@ textarea.form-control-lg {
   display: grid !important;
 }
 
+.d-grid2 {
+  display: grid !important;
+  grid-template-columns: 120px 120px;
+}
+
+.d-grid4 {
+  display: grid !important;
+  grid-template-columns: 2fr 2fr 1fr 1fr;
+  grid-gap: 30px;
+  gap: 30px;
+} 
+
 .d-table {
   display: table !important;
 }
