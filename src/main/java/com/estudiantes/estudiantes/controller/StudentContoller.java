@@ -21,8 +21,18 @@ public class StudentContoller {
         return "products";
     }
 
-    @RequestMapping("/editar")
-    public String editar() {
-        return "edit_student";
+    @RequestMapping("/create")
+    public String crear() {
+        return "create_shoes";
+    }
+
+    @RequestMapping("/update")
+    public String actualizar() {
+        return "update_shoes";
+    }
+
+    @RequestMapping("/sales")
+    public String ventas() {
+        return "sales";
     }
 }
